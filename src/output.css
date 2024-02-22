@@ -660,6 +660,26 @@ video {
   top: -64px;
 }
 
+.left-4 {
+  left: 1rem;
+}
+
+.left-\[30px\] {
+  left: 30px;
+}
+
+.left-\[40px\] {
+  left: 40px;
+}
+
+.left-\[50px\] {
+  left: 50px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -679,6 +699,18 @@ video {
 
 .ms-\[110px\] {
   margin-inline-start: 110px;
+}
+
+.me-3 {
+  margin-inline-end: 0.75rem;
+}
+
+.me-4 {
+  margin-inline-end: 1rem;
+}
+
+.me-6 {
+  margin-inline-end: 1.5rem;
 }
 
 .flex {
@@ -709,12 +741,20 @@ video {
   max-height: 50px;
 }
 
+.min-h-\[60px\] {
+  min-height: 60px;
+}
+
 .w-full {
   width: 100%;
 }
 
 .w-screen {
   width: 100vw;
+}
+
+.min-w-\[60px\] {
+  min-width: 60px;
 }
 
 .max-w-\[140px\] {
@@ -753,6 +793,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .py-3 {
@@ -797,6 +841,11 @@ video {
   font-size: 28px;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -807,6 +856,30 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-\[22px\] {
+  line-height: 22px;
+}
+
+.leading-\[21px\] {
+  line-height: 21px;
 }
 
 .tracking-wide {
@@ -844,6 +917,12 @@ video {
   color: rgb(0 95 57 / var(--tw-text-opacity));
 }
 
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 640px) {
   .sm\:relative {
     position: relative;
@@ -869,12 +948,92 @@ video {
     top: 0px;
   }
 
+  .sm\:left-\[50px\] {
+    left: 50px;
+  }
+
+  .sm\:left-\[-50px\] {
+    left: -50px;
+  }
+
+  .sm\:left-\[-100px\] {
+    left: -100px;
+  }
+
+  .sm\:left-\[-150px\] {
+    left: -150px;
+  }
+
+  .sm\:left-\[-170px\] {
+    left: -170px;
+  }
+
+  .sm\:left-\[-80px\] {
+    left: -80px;
+  }
+
+  .sm\:left-\[-10px\] {
+    left: -10px;
+  }
+
+  .sm\:left-\[-0px\] {
+    left: -0px;
+  }
+
+  .sm\:top-1 {
+    top: 0.25rem;
+  }
+
+  .sm\:left-\[-20px\] {
+    left: -20px;
+  }
+
+  .sm\:left-\[-40px\] {
+    left: -40px;
+  }
+
+  .sm\:left-0 {
+    left: 0px;
+  }
+
+  .sm\:left-5 {
+    left: 1.25rem;
+  }
+
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
+  .sm\:inline {
+    display: inline;
+  }
+
   .sm\:max-h-\[120px\] {
     max-height: 120px;
   }
 
+  .sm\:max-h-\[100px\] {
+    max-height: 100px;
+  }
+
+  .sm\:max-h-\[140px\] {
+    max-height: 140px;
+  }
+
+  .sm\:max-h-\[130px\] {
+    max-height: 130px;
+  }
+
   .sm\:max-w-\[140px\] {
     max-width: 140px;
+  }
+
+  .sm\:max-w-\[120px\] {
+    max-width: 120px;
+  }
+
+  .sm\:max-w-\[130px\] {
+    max-width: 130px;
   }
 
   .sm\:py-3 {
@@ -891,8 +1050,78 @@ video {
     font-size: 28px;
   }
 
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .sm\:text-\[24px\] {
+    font-size: 24px;
+  }
+
   .sm\:font-semibold {
     font-weight: 600;
+  }
+
+  .sm\:font-extrabold {
+    font-weight: 800;
+  }
+
+  .sm\:font-bold {
+    font-weight: 700;
+  }
+
+  .sm\:font-normal {
+    font-weight: 400;
+  }
+
+  .sm\:font-\[600\] {
+    font-weight: 600;
+  }
+
+  .sm\:font-\[500\] {
+    font-weight: 500;
+  }
+
+  .sm\:leading-4 {
+    line-height: 1rem;
+  }
+
+  .sm\:leading-6 {
+    line-height: 1.5rem;
+  }
+
+  .sm\:leading-8 {
+    line-height: 2rem;
+  }
+
+  .sm\:leading-10 {
+    line-height: 2.5rem;
+  }
+
+  .sm\:leading-\[60px\] {
+    line-height: 60px;
+  }
+
+  .sm\:leading-\[50px\] {
+    line-height: 50px;
+  }
+
+  .sm\:tracking-normal {
+    letter-spacing: 0em;
+  }
+
+  .sm\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 
   .sm\:text-\[\#005f39\] {
